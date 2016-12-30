@@ -1,0 +1,13 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 3
+  domain: mybluemix.net
+  name: TrailJava
+  host: TrailJava
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - Text to Speech-ty
+  - Conversation-one
+  - Speech to Text-bz
